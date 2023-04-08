@@ -27,9 +27,9 @@ We started off with our Random Forest classifier. We first used a default Random
 
 
 **From our best crime type model we find:**
-* Our highest precision score belonged to Simple Assault crimes (.47)
-* Our highest recall score belonged to Identity Theft crimes (.73)
-* Our highest F1 score belonged to Simple Assault crimes (.51)
+* Our highest precision score belonged to Simple Assault crimes (.47), then both Aggravated Assault crimes and Identity Theft crimes with a score of .36.
+* Our highest recall score belonged to Identity Theft crimes (.73), then Shoplifting crimes (.62), then Simple Assault crimes (.56)
+* Our highest F1 score belonged to Simple Assault crimes (.51), then Identity Theft crimes (.48), then Shoplifting crimes (.42)
 * For our instances of true positives, the most instances belonged to Burglary/Breaking & Entering crimes (2,474), then Simple Assault crimes (2,139), then Identity Theft crimes (2,118)
 * The least instances of false negatives belonged to Trespass of Real Property crimes (0), Identity Theft crimes (803), and Shoplifting crimes (1,116)
 * The least instances of false postives belonged to Trespass of Real Property crimes (0), Robbery crimes (826), and Theft From Building crimes (1,309)
