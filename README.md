@@ -26,3 +26,5 @@ We started off with our Random Forest classifier. We first used a default Random
 
 
 
+**From our best crime type model we find:**
+* df
