@@ -19,3 +19,7 @@ We started off with our Random Forest classifier. We first used a default Random
 
 <img width="505" alt="best_crime_type_cr" src="https://user-images.githubusercontent.com/45251340/230743373-16f0e96c-27ba-42db-9487-ad3dbd91ab9e.PNG">
 
+
+**Confusion Matrix**
+
+![best_crime_type_cm](https://user-images.githubusercontent.com/45251340/230743456-cd4b3d0f-d62e-4874-9474-6dbdd7699bc7.PNG)
