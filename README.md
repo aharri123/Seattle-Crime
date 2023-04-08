@@ -36,3 +36,6 @@ We started off with our Random Forest classifier. We first used a default Random
 * For our instances of true negatives, the most instances belonged to Theft From Building crimes (51,929), then Theft of Motor Vehicle Parts or Accessories crimes (51,863), then Robbery crimes (51,679)
 
 **It's somewhat difficult to choose the types of crime our model best classifies, but we'll say in terms of precision, recall, F1 score, and instances of true positives/ false negatives that our top crimes are Simple Assault and Shoplifting.**
+
+
+### Crime Location Model ###
