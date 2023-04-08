@@ -27,4 +27,6 @@ We started off with our Random Forest classifier. We first used a default Random
 
 
 **From our best crime type model we find:**
-* df
+* Our highest precision score belonged to Simple Assault crimes (.47)
+* Our highest recall score belonged to Identity Theft crimes (.73), Shoplifting crimes (.62) value, and Simple Assault crimes(.56)
+* 
