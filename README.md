@@ -56,7 +56,7 @@ We first used a default CatBoost model (again with early stopping rounds), and f
 ![best_crime_type_cm](https://user-images.githubusercontent.com/45251340/230751798-952b8533-cb04-49fa-afc1-4a8f50e633ff.PNG)
 
 
-**From our best crime type model we find:**
+**From our best crime type model we can see:**
 * Our highest precision scores belonged to the E3 beat (.99), the B3 beat (.96), and the U3 beat (.89)
 * Our highest recall values belonged to the E1 beat (.99), the B1 beat (.95), and the U2 beat (.90)
 * Our highest F1 score belonged to the E1 beat (.87), the B3 beat (.84), and the E3 beat (.83)
