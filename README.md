@@ -66,3 +66,6 @@ We first used a default CatBoost model (again with early stopping rounds), and f
 * The most instances of true negatives belonged to the L2 beat (26,154), then the Q3 beat (25,283), then the E3 beat (25,160)
 
 **We'll say in terms of precision, recall, F1 score, and instances of true positives/Negatives and false positives/negatives that our top crime locations are the B3 beat, E1 Beat, E3 Beat, and L2 Beat.**
+
+
+### Additional Analysis ###
