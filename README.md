@@ -40,10 +40,9 @@ We started off with our Random Forest classifier. We first used a default Random
 
 ### Crime Location Model ###
 
-We also looked at location of crimes in a separate model. Seattle has 5 precincts, or police station areas. They are: North, East, South, West and Southwest. Then, there are smaller geographical areas within the precincts called sectors. Finally, each sector is divided into 3 smaller sections called beats, which individual patrol officers are assigned responsibility for. We'll be looking at which beats crimes occur in, since beats are the smallest area we can look at. Shown below is a  Beat map for reference when looking at our later results, and also just to gain an idea of how the Beats are spread out. 
+We also looked at location of crimes in a separate model. Seattle has 5 precincts, or police station areas. They are: North, East, South, West and Southwest. Then, there are smaller geographical areas within the precincts called sectors. Finally, each sector is divided into 3 smaller sections called Beats, which individual patrol officers are assigned responsibility for. We'll be looking at which Beats crimes occur in, since Beats are the smallest area we can look at. Shown below is a  Beat map for reference when looking at our later results, and also just to gain an idea of how the Beats are spread out. 
 
 ![precinctmap](https://user-images.githubusercontent.com/45251340/230751410-ce588931-d4c1-4dbf-8208-d232c6271c94.png)
 
 
-
-We first used a default CatBoost model (again with , but found it to be overfitting as well
+We first used a default CatBoost model (again with early stopping rounds), and found that our precision, recall and F1 values were relatively high. That being said, are model was overfitting. Our initial model seemed to best classify new crime locations as occuring in the E1, E3, and L2 beats. We wanted to see if we could reduce overfitting and get more realistic classification report values, so we tuned our model again using Grid-search. 
