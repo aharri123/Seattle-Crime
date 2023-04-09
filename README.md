@@ -69,3 +69,11 @@ We first used a default CatBoost model (again with early stopping rounds), and f
 
 
 ### Additional Analysis ###
+
+Since we ran two different models, we had to analyze our models separately. However, we wanted to be able to look at both type of crime and crime location together, and supplement that data with our models. Luckily, we were able to do this by looking at our initial dataframe, and using past data. We looked at what type of crimes occured the most in the past 3 years in the locations that our best model predicted. No machine learning models were used for this, just pure data.
+
+We created a df only containing the Offense and Beat variables, then grouped them together while filtering to make sure that we only saw crimes occuring in the Beats that our best model classified. We then graphed our results, as seen below.
+
+
+![beats_graph](https://user-images.githubusercontent.com/45251340/230795172-187d6ebd-6aa8-47c2-ad5d-7e71051cc622.png)
+
