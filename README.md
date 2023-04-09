@@ -26,8 +26,8 @@ We started off with our Random Forest classifier. We first used a default Random
 
 
 
-**From our best crime type model we find:**
-* Our highest precision score belonged to Simple Assault crimes (.47), then both Aggravated Assault crimes and Identity Theft crimes with a score of .36.
+**From our best crime type model we can see:**
+* Our highest precision score belonged to Simple Assault crimes (.47), then both Aggravated Assault crimes and Identity Theft crimes with a score of .36
 * Our highest recall score belonged to Identity Theft crimes (.73), then Shoplifting crimes (.62), then Simple Assault crimes (.56)
 * Our highest F1 score belonged to Simple Assault crimes (.51), then Identity Theft crimes (.48), then Shoplifting crimes (.42)
 * For our instances of true positives, the most instances belonged to Burglary/Breaking & Entering crimes (2,474), then Simple Assault crimes (2,139), then Identity Theft crimes (2,118)
@@ -55,3 +55,12 @@ We first used a default CatBoost model (again with early stopping rounds), and f
 
 ![best_crime_type_cm](https://user-images.githubusercontent.com/45251340/230751798-952b8533-cb04-49fa-afc1-4a8f50e633ff.PNG)
 
+
+**From our best crime type model we find:**
+* Our highest precision scores belonged to the E3 beat (.99), the B3 beat (.96), and the U3 beat (.89)
+* Our highest recall values belonged to the E1 beat (.99), the B1 beat (.95), and the U2 beat (.90)
+* Our highest F1 score belonged to the E1 beat (.87), the B3 beat (.84), and the E3 beat (.83)
+* For our instances of true positives, the most instances belonged to the K3 beat (1,748) , then the L2 beat (1,604), then the R2 beat (1,601)
+* The least instances of false negatives was a tie between the K3 beat, L2 beat, R2 beat, and N2 beat all with 0 instances.
+* The least instances of false positives was a tie between the W2 beat, L2 beat, and the K3 beat, all with 0 instances.
+* The most instances of true negatives belonged to the L2 beat (26,154), then the Q3 beat (25,283), then the E3 beat (25,160)
