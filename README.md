@@ -77,3 +77,13 @@ We created a df only containing the Offense and Beat variables, then grouped the
 
 ![beats_graph](https://user-images.githubusercontent.com/45251340/230795172-187d6ebd-6aa8-47c2-ad5d-7e71051cc622.png)
 
+
+From our graph we can see that:
+
+* In the B3 Beat, we can see that the top 3 crimes committed over the past 3 years were: Burglarly/Breaking & Entering, Theft From Motor Vehicle, and Theft of Motor Vehicle Parts or Accessories
+
+
+* In the E1 Beat, we can see that the top 3 crimes committed over the past 3 years were: Burglarly/Breaking & Entering, Destruction/Damage/Vandalism Of Property, and Simple Assault
+
+
+* In the L2 Beat, we can see that the top 3 crimes committed over the past 3 years were: Shoplifting, Burglarly/Breaking & Entering, and Theft From Motor Vehicle
