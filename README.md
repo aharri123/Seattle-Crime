@@ -95,3 +95,6 @@ From our graph we can see that:
 ## Best Model ##
 
 As a recap, our best model for our crime type classification was our initial CatBoost model. Our best model for our crime location classification model was also our initial CatBoost model. We found that our crime type model best classified Simple Assault crimes and Shoplifting crimes, while our crime location model best classified B3, E1, and L2 Beat locations. The results for our best crime type classification model can be found summarized above, as can the results for our crime location classification model. 
+
+## Conclusion ##
+The goal was to work with the city of Seattle to build two classification models that accurately classify not only types of new crimes, but also location of new crimes. Ideally, when a new crime occurs the models should be able to instantly and accurately predict what type of crime it is and where the crime is occuring. 
