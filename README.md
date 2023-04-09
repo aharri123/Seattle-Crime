@@ -90,3 +90,8 @@ From our graph we can see that:
 
 
 **When we combined the top classified Beats with our graph results, we identified more crimes in addition to our model's results. Our favored model best classified Simple Assault crimes and Shoplifting crimes, which was also supported by our graph results, but now we're also aware that Burglarly/Breaking & Entering crimes and Theft From Motor Vehicle crimes are major crimes occuring over the years that we need to be aware of. Knowing what kind of crimes are most prevalent in what areas will allow us to come up with plans for preventing further crimes, allocate more resources to certain areas, etc. We'll go over these possibilities more in depth in our final conclusion.**
+
+
+## Best Model ##
+
+As a recap, our best model for our crime type classification was our initial CatBoost model. Our best model for our crime location classification model was also our initial CatBoost model. We found that our crime type model best classified Simple Assault crimes and Shoplifting crimes, while our crime location model best classified B3, E1, and L2 Beat locations. The results for our best crime type classification model can be found summarized above, as can the results for our crime location classification model. 
