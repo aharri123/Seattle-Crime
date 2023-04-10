@@ -127,11 +127,10 @@ If this model is successfully improved and implemented, it could have a huge pos
 
 ## Repository Structure ##
 
-├── Images
-├── zipped_data
-├──.gitignore
-├── Movie_Data_Analysis.ipynb
+├── data
+
+├── Image-Classification.ipynb
+
+├── Pneumonia Classification.pdf
+
 ├── README.md
-├── notebook.pdf
-├── presentation.pdf
-└── requirements.txt
