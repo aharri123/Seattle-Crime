@@ -127,11 +127,20 @@ If this model is successfully improved and implemented, it could have a huge pos
 
 ## Repository Structure ##
 
-├── Images
-├── zipped_data
+├── .ipynb_checkpoints
+
+├── catboost_info
+
 ├──.gitignore
-├── Movie_Data_Analysis.ipynb
+
+├── Preprocessing Data.ipynb
+
 ├── README.md
-├── notebook.pdf
-├── presentation.pdf
-└── requirements.txt
+
+├── Seattle-Crime.ipynb
+
+├── seattle_crime_beat.csv
+
+├── seattle_crime_beat.csv
+
+└── supplemental.csv
