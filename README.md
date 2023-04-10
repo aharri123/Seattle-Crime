@@ -126,6 +126,7 @@ When it comes to implementing the model, it would be beneficial to use it either
 If this model is successfully improved and implemented, it could have a huge positive impact on the city of Seattle. It would decrease crime, improve police relations with the public, and even have positive side effects like increased tourism and more businesses opening up. Then once proven repeatedly successful, the model can potentially be generalized to other parts of Washington, and even other states.
 
 ## Repository Structure ##
+
 ├── data
 ├── Image-Classification.ipynb
 ├── Pneumonia Classification.pdf
