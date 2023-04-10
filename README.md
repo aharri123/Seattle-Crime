@@ -106,3 +106,6 @@ So when it came to type of new crimes, the crimes that our model best classified
 
 ## Recommendations ##
 
+We'll start off with looking at location of crime. We saw that the top Beats that crime was classified to occur in were the B3, E1 and L2 beats. Let's take a look at a partial Beat map of Seattle, and locations of police stations.
+
+<img width="298" alt="partial beat map" src="https://user-images.githubusercontent.com/45251340/230994447-b4b17cac-8e6e-419c-b809-aab8487dba1f.PNG">
