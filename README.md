@@ -49,7 +49,9 @@ We also looked at location of crimes in a separate model. Seattle has 5 precinct
 ![precinctmap](https://user-images.githubusercontent.com/45251340/230751410-ce588931-d4c1-4dbf-8208-d232c6271c94.png)
 
 
-We first used a default CatBoost model (again with early stopping rounds), and found that our precision, recall and F1 values were relatively high. That being said, are model was overfitting. Our initial model seemed to best classify new crime locations as occuring in the E1, E3, and L2 beats. We wanted to see if we could reduce overfitting and get more realistic classification report values, so we tuned our model again using Grid-search. Interestingly, our classification report results were the same as our initial model. We also found that our model was still overfitting. In addition, our confusion matrix results were slightly lower when it came to metrics like false positives and false negatives, while higher for metrics like true negatives, when compared to our tuned model. Therefore, we declared our initial CatBoost model as the best model between the two. Let's take a look at our classification report and confusion matrix.
+We first used a default CatBoost model (again with early stopping rounds), and found that our precision, recall and F1 values were relatively high. That being said, are model was overfitting. Our initial model seemed to best classify new crime locations as occuring in the E1, E3, and L2 beats. We wanted to see if we could reduce overfitting and get more realistic classification report values, so we tuned our model again using Grid-search. Interestingly, our classification report results were the same as our initial model. We also found that our model was still overfitting. In addition, our confusion matrix results were slightly lower when it came to metrics like false positives and false negatives, while higher for metrics like true negatives, when compared to our tuned model. 
+
+Therefore, we declared our initial CatBoost model as the best model between the two. Let's take a look at our classification report and confusion matrix.
 
 **Classification Report**
 
