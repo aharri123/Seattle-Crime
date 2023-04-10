@@ -124,3 +124,9 @@ We saw that the top crimes in those Beats were Burglarly/Breaking & Entering, Sh
 When it comes to implementing the model, it would be beneficial to use it either in police dispatch center, or in the mobile laptops that the police carry with them. This way the notification and response can be almost instantaneous. Another great idea would be to try to implement our model with social media. Any crime or suspicious activity that gets posted online would instantly notify someone of the type and location of the crime. Lastly, it would be great if we could blend the two models together into one Machine Learning model. This may be a complex process, but not impossible.
 
 If this model is successfully improved and implemented, it could have a huge positive impact on the city of Seattle. It would decrease crime, improve police relations with the public, and even have positive side effects like increased tourism and more businesses opening up. Then once proven repeatedly successful, the model can potentially be generalized to other parts of Washington, and even other states.
+
+## Repository Structure ##
+├── data
+├── Image-Classification.ipynb
+├── Pneumonia Classification.pdf
+├── README.md
