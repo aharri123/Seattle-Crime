@@ -1,4 +1,4 @@
-# Seattle-Crime
+# Classifying Seattle-Crime
 
 ![Seattle_Center_as_night_falls](https://user-images.githubusercontent.com/45251340/231828052-f6a2f8a6-ef82-4bfa-a613-3ae9bf302ec6.jpg)
 
