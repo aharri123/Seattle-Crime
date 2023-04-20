@@ -1,4 +1,7 @@
-# Seattle-Crime
+# Classifying Seattle-Crime
+
+![Seattle_Center_as_night_falls](https://user-images.githubusercontent.com/45251340/231828052-f6a2f8a6-ef82-4bfa-a613-3ae9bf302ec6.jpg)
+
 
 ## Business Goal ##
 We'll be working with the great city of Seattle. Using classification algorithms (Random Forest and CatBoost), we'll create two separate models to predict not only location of new crimes, but also type. Creating successful models will help to reduce crime and make Seattle a safer place. Once proven successful, the model can potentially be generalized to other parts of Washington, and even other states.
@@ -127,10 +130,20 @@ If this model is successfully improved and implemented, it could have a huge pos
 
 ## Repository Structure ##
 
-├── data
+├── .ipynb_checkpoints
 
-├── Image-Classification.ipynb
+├── catboost_info
 
-├── Pneumonia Classification.pdf
+├──.gitignore
+
+├── Preprocessing Data.ipynb
 
 ├── README.md
+
+├── Seattle-Crime.ipynb
+
+├── seattle_crime_beat.csv
+
+├── seattle_crime_beat.csv
+
+└── supplemental.csv
