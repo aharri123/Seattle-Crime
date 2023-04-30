@@ -30,6 +30,8 @@ Lastly, we wanted to see how type of crime and crime location played a part toge
 
 <img width="167" alt="supp_analysis df" src="https://user-images.githubusercontent.com/45251340/235370545-5adf870a-0f29-44f8-a5e2-86303044fa08.PNG">
 
+## Distribution of our variables ##
+
 
 ## Our Models ##
 We had two different models: One for crime type, and one for crime location. We used two different types of algorithms for our crime type model, which were a Random Forest classifier and a CatBoost classifier, but only used a CatBoost classifier for our location model. 
