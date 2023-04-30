@@ -14,7 +14,13 @@ The data itself came from the city of Seattle's website. The crime dataset, whic
 
 
 ## Preprocessing Our Data ##
-We started off preprocessing our data in a separate notebook (Preprocessing Data.ipynb). We preprocessed our model differently for two separate models: A crime type model, and a crime location model. We started off with our crime type model. We first checked for null values, duplicates, etc. After that we started converting our variables into categorical variables, while setting up the type of crime to be our target variable in our main notebook. We did something similar for our location model, except we set up our Beat to be the target variable. Lastly, we wanted to see how type of crime and crime location played a part together, so we created a new dataframe containing only Beat and crime type, and grouped them together for later use in our main notebook. 
+We started off preprocessing our data in a separate notebook (Preprocessing Data.ipynb). We preprocessed our model differently for two separate models: A crime type model, and a crime location model. We started off with our crime type model. We first checked for null values, duplicates, etc. After that, we started converting our variables into categorical variables, while setting up the type of crime to be our target variable in our main notebook. At the end, we were left with 8 variables and 210,259 rows.
+
+
+<img width="246" alt="crime type final df" src="https://user-images.githubusercontent.com/45251340/235370427-05d900b4-1f92-48ca-93e6-b86a393bef55.PNG">
+
+
+We did something similar for our location model, except we set up our Beat to be the target variable. Lastly, we wanted to see how type of crime and crime location played a part together, so we created a new dataframe containing only Beat and crime type, and grouped them together for later use in our main notebook. 
 
 ## Our Models ##
 We had two different models: One for crime type, and one for crime location. We used two different types of algorithms for our crime type model, which were a Random Forest classifier and a CatBoost classifier, but only used a CatBoost classifier for our location model. 
