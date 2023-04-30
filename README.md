@@ -169,7 +169,19 @@ Finally, we'll look at feature importances for each of our models. First we'll s
 
 ## Final Results ##
 
-As a recap, our best model for our crime type classification was our initial CatBoost model. Our best model for our crime location classification model was also our initial CatBoost model. We found that our crime type model best classified Simple Assault crimes and Shoplifting crimes, while our crime location model best classified B3, E1, and L2 Beat locations. The results for our best crime type classification model can be found summarized above, as can the results for our crime location classification model. Lastly, when we put Beat and crime type together, we saw that the top crimes that occured over the past 3 years in the B3, E1 and L2 Beat were Burglarly/Breaking & Entering and Theft From Motor Vehicle crimes.
+Putting everything together we can see: 
+
+* When it came to our crime type model, our initial CatBoost model was our best model. 
+* When it came to our crime location model, our initial CatBoost model was also the best model. 
+* When it came to type of new crimes, the crimes that our model best classified were Simple Assault and Shoplifting. 
+* When it came to location of a new crime, our model best classified new crime as occuring in the B3, E1 and L2 Beat. 
+* Lastly, when we put Beat and crime type together, we saw that the top crimes that occured over the past 3 years in the B3, E1 and L2 Beat were Burglarly/Breaking & Entering and Theft From Motor Vehicle crimes. 
+* The variable that is most useful for predicting crime type is "Crime Against Category".
+* The variable that is most useful for predicting crime location is "Sector".
+
+**As mentioned earlier, our models are in their early stages. So our initial results indicate that the areas we should be focused on (due to our model best predicting them) are the B3, E1, and L2 Beats, while the top crimes that we should be concerned about (based on our model results and supplemental analysis) are Burglarly/Breaking & Entering, Shoplifting, Simple Assault, and Theft From Motor Vehicle crimes. Later, as we progress and improve our models we can identify more trends in crime type and crime location, and create more specified plans of action, but we'll go over this in our conclusion and recommendations.**
+
+
 
 ## Conclusion ##
 The goal was to work with the city of Seattle to build two classification models that accurately classify not only types of new crimes, but also location of new crimes. Ideally, when a new crime occurs the models should be able to instantly and accurately predict what type of crime it is and where the crime is occuring. 
