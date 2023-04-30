@@ -110,14 +110,14 @@ Therefore, we declared our initial CatBoost model as the best model between the 
 ![best_crime_type_cm](https://user-images.githubusercontent.com/45251340/230751798-952b8533-cb04-49fa-afc1-4a8f50e633ff.PNG)
 
 
-**From our best crime type model we can see:**
-* Our highest precision scores belonged to the E3 beat (.99), the B3 beat (.96), and the U3 beat (.89)
-* Our highest recall values belonged to the E1 beat (.99), the B1 beat (.95), and the U2 beat (.90)
-* Our highest F1 score belonged to the E1 beat (.87), the B3 beat (.84), and the E3 beat (.83)
-* For our instances of true positives, the most instances belonged to the K3 beat (1,748) , then the L2 beat (1,604), then the R2 beat (1,601)
-* The least instances of false negatives was a tie between the K3 beat, L2 beat, R2 beat, and N2 beat all with 0 instances.
-* The least instances of false positives was a tie between the W2 beat, L2 beat, and the K3 beat, all with 0 instances.
-* The most instances of true negatives belonged to the L2 beat (26,154), then the Q3 beat (25,283), then the E3 beat (25,160)
+**From our best crime location model we can see:**
+* Our highest precision scores belonged to the E3 beat (.99), the B3 beat (.96), and the U3 beat (.89). This tells us that out of all the crimes that the model predicted would occur in a certain beat, the largest percentage of crimes that actually occured in that beat, occured in the E3, B3, and U3 beat. Our precision scores are very high, which is good (but could be indicative of overfitting).
+* Our highest recall values belonged to the E1 beat (.99), the B1 beat (.95), and the U2 beat (.90). This tells us that when looking at the total actual instances of crimes occuring in a certain beat, the largest percentage of our predictions were correctly classified as occuring in that beat when it came to the E3, B3, and U3 beat. Our recall scores are also very high, which is good (but could be indicative of overfitting).
+* Our highest F1 score belonged to the E1 beat (.87), the B3 beat (.84), and the E3 beat (.83). This tells us that our model's accuracy is best when it comes to predicting crimes occuring in the E1, B3, and E3 beat. Our F1 scores are reasonably high.
+* For our instances of true positives, the most instances belonged to the K3 beat (1,748) , then the L2 beat (1,604), then the R2 beat (1,601). We can see that we have high instances of True Positives, which is good since it means our models are classifying a large amount of these crimes correctly. 
+* The least instances of false negatives was a tie between the K3 beat, L2 beat, R2 beat, and N2 beat all with 0 instances. We want low instances of false negatives, since high instances of false negatives could mean that when it comes to police action, or even long term action, that the wrong area is focused on. This could lead to increased crime, and wasted city/police resources. The least misclassified crime beats were the K3, L2, R2, and N2 beats.
+* The least instances of false positives was a tie between the W2 beat, L2 beat, and the K3 beat, all with 0 instances. We want low instances for the same reasons as with false negatives. This means that crimes were least likely to be misclassified as occuring in the W2, L2, and K3 beats.
+* The most instances of true negatives belonged to the L2 beat (26,154), then the Q3 beat (25,283), then the E3 beat (25,160). Low instances of true negatives are good, but this metric is not as useful as the other 3.
 
 **We'll say in terms of precision, recall, F1 score, and instances of true positives/Negatives and false positives/negatives that our top crime locations are the B3 beat, E1 Beat, E3 Beat, and L2 Beat.**
 
