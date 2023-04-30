@@ -32,11 +32,13 @@ Lastly, we wanted to see how type of crime and crime location played a part toge
 
 ## Distribution Of Our Variables ##
 
-Let's look at the distribution for our target variables. 
+Let's look at the distribution for our target variables. We also graphed the distribution of our other variables, which can be seen in our main notebook.
 
-**Crime Type**
+**Crime Type Target Variable (Offense) Distribution**
 
 <img width="529" alt="offense target var distribution" src="https://user-images.githubusercontent.com/45251340/235370760-b1f50bd0-9a7d-4007-8b57-04d7c8e5a026.PNG">
+
+**Crime Location Target Variable (Beat) Distribution**
 
 
 
