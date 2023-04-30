@@ -199,7 +199,7 @@ Our initial reccomendations are based on what our current model best predicts fo
 * Alternatively, allocate some of South Seattle's police force to the northern area, to increase patrol ability and police responsiveness.
 * Implement a type of neighboorhood watch that the police would work with to patrol the area.
 * When addressing Burglarly/Breaking & Entering, Shoplifting, Simple Assault, and Theft From Motor Vehicle crimes, suggested to install more security cameras around the city, that are monitored 24-7. 
-* In regards to Theft From Motor Vehicle crimes, build more secure and affordable parking areas, whether they're parking lots, parking garages, etc. 
+* In regards to Theft From Motor Vehicle crimes, build more secure and affordable parking areas, whether it's parking lots, parking garages, etc. 
 * When it comes to implementing the model, use it either in police dispatch center, police mobile laptops, or both. 
 * Implement our model with social media, so that our models could scour social media for any posts about crime or suspicious activity occuring in Seattle, then notify police of the type and location of the crime.
 * Lastly, blend the two models together into one Machine Learning model. This may be a complex process, but not impossible.
