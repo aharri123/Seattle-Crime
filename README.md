@@ -195,7 +195,7 @@ So when it came to type of new crimes, the crimes that our model best classified
 
 Our initial reccomendations are based on what our current model best predicts for both crime type and crime location. Once we improve our model, we'll be able to make more specific preventatitve recommendations. For instance, once we're confident in our model's predictions, we can put more focus on certain types of crime (such as violent crime or property crimes) and their location trends. Remember that the areas we should be focused on (due to our model best predicting them) are the B3, E1, and L2 Beats, while the top crimes that we should be concerned about (based on our model results and supplemental analysis) are Burglarly/Breaking & Entering, Shoplifting, Simple Assault, and Theft From Motor Vehicle crime. Here are some of our recommendations:
 
-* The area around the B3 and L2 beats only has one police station, therefore it's recommended to build more (at least one) police stations closer to the B3 Beat.
+* The area around the B3 and L2 beats only has one police station, therefore it's recommended to build more (at least one) police stations between the B3 and L2 Beat.
 * Alternatively, allocate some of South Seattle's police force to the northern area, to increase patrol ability and police responsiveness.
 * Implement a type of neighboorhood watch that the police would work with to patrol the area.
 * When addressing Burglarly/Breaking & Entering, Shoplifting, Simple Assault, and Theft From Motor Vehicle crimes, suggested to install more security cameras around the city, that are monitored 24-7. 
