@@ -80,7 +80,7 @@ We therefore declared our initial CatBoost model to be the best model overall fo
 
 ### 2) Crime Location Model ###
 
-We also looked at location of crimes in a separate model. Seattle has 5 precincts, or police station areas. They are: North, East, South, West and Southwest. Then, there are smaller geographical areas within the precincts called sectors. Finally, each sector is divided into 3 smaller sections called beats, which individual patrol officers are assigned responsibility for. We included an interactive map in our main notebook that the reader can use to look at precincts, beats, and even neighborhoods (MCPP) in Seattle. An example is shown below
+We also looked at location of crimes in a separate model. Seattle has 5 precincts, or police station areas. They are: North, East, South, West and Southwest. Then, there are smaller geographical areas within the precincts called sectors. Finally, each sector is divided into 3 smaller sections called beats, which individual patrol officers are assigned responsibility for. We included an interactive map in our main notebook that the reader can use to look at precincts, beats, and even neighborhoods (MCPP) in Seattle. An example is shown below.
 
 
 **Using interactive map to look at specific beats**
