@@ -92,7 +92,7 @@ We also looked at location of crimes in a separate model. Seattle has 5 precinct
 
 
 
-We'll be looking at which beats crimes occur in, since beats are the smallest area we can look at. Shown below is a  beat map for reference when looking at our later results, and also just to gain an idea of how the beats are spread out. 
+We'll be looking at which beats crimes occur in, since beats are the smallest area we can look at. Shown below is a non-interactive beat map for reference when looking at our later results, and also just to gain an idea of how the beats are spread out. 
 
 ![precinctmap](https://user-images.githubusercontent.com/45251340/230751410-ce588931-d4c1-4dbf-8208-d232c6271c94.png)
 
