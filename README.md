@@ -40,6 +40,7 @@ Let's look at the distribution for our target variables. We also graphed the dis
 
 **Crime Location Target Variable (Beat) Distribution**
 
+<img width="487" alt="beat target var distribution" src="https://user-images.githubusercontent.com/45251340/235371919-7444dd39-86ae-4d70-a325-a249d0b63e99.PNG">
 
 
 ## Our Models ##
