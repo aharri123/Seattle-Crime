@@ -9,7 +9,7 @@ We'll be working with the great city of Seattle and its mayor. Seattle is a larg
 ## Data ##
 The data itself came from the city of Seattle's website. The crime dataset, which ranges from 2008-present is publicly available at https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5. The data contained well over 1 million rows of data, and 17 variables. Our initial variables (before filtering and preprocessing our data) can be seen below.
 
-<img width="240" alt="initial df info" src="https://user-images.githubusercontent.com/45251340/235370017-fb2f7c4b-ae34-40b4-8ef1-0cf5cd80134f.PNG">
+<img width="290" alt="initial df info" src="https://user-images.githubusercontent.com/45251340/235370060-6b043606-2c0e-4437-a22e-f12f9e6631a5.PNG">
 
 
 ## Preprocessing Our Data ##
