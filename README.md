@@ -75,7 +75,7 @@ We therefore declared our initial CatBoost model to be the best model overall fo
 * The least instances of false postives belonged to Trespass of Real Property crimes (0), Robbery crimes (826), and Theft From Building crimes (1,309). Low instances of false positives are good for the same reason as with false negatives. This means that crimes were least likely to be misclassified as Trespass of Real Property, Robbery, and Theft From Building crimes.
 * For our instances of true negatives, the most instances belonged to Theft From Building crimes (51,929), then Theft of Motor Vehicle Parts or Accessories crimes (51,863), then Robbery crimes (51,679). Low instances of true negatives are good, but this metric is not as useful as the other 3.
 
-**It's somewhat difficult to choose the types of crime our model best classifies, but we'll say in terms of precision, recall, F1 score, and instances of true positives/ false negatives that our top crimes are Simple Assault and Shoplifting.**
+**We'll say in terms of precision, recall, F1 score, and instances of true positives/ false negatives that our top crimes are Simple Assault and Shoplifting.**
 
 
 ### 2) Crime Location Model ###
