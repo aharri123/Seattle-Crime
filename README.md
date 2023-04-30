@@ -42,6 +42,8 @@ Let's look at the distribution for our target variables. We also graphed the dis
 
 <img width="487" alt="beat target var distribution" src="https://user-images.githubusercontent.com/45251340/235371919-7444dd39-86ae-4d70-a325-a249d0b63e99.PNG">
 
+We can see that there's imbalances in both of our variables, which we address using SMOTE in our main notebook.
+
 
 ## Our Models ##
 We had two different models: One for crime type, and one for crime location. We used two different types of algorithms for our crime type model, which were a Random Forest classifier and a CatBoost classifier, but only used a CatBoost classifier for our location model. 
