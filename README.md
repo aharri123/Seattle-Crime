@@ -20,7 +20,12 @@ We started off preprocessing our data in a separate notebook (Preprocessing Data
 <img width="246" alt="crime type final df" src="https://user-images.githubusercontent.com/45251340/235370427-05d900b4-1f92-48ca-93e6-b86a393bef55.PNG">
 
 
-We did something similar for our location model, except we set up our Beat to be the target variable. Lastly, we wanted to see how type of crime and crime location played a part together, so we created a new dataframe containing only Beat and crime type, and grouped them together for later use in our main notebook. 
+We did something similar for our location model, except we set up our Beat to be the target variable. 
+
+<img width="247" alt="crime location final df" src="https://user-images.githubusercontent.com/45251340/235370471-c5433de8-a989-4f12-adc3-ef5fff5a4920.PNG">
+
+
+Lastly, we wanted to see how type of crime and crime location played a part together, so we created a new dataframe containing only Beat and crime type, and grouped them together for later use in our main notebook. 
 
 ## Our Models ##
 We had two different models: One for crime type, and one for crime location. We used two different types of algorithms for our crime type model, which were a Random Forest classifier and a CatBoost classifier, but only used a CatBoost classifier for our location model. 
