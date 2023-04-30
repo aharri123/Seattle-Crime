@@ -145,6 +145,27 @@ From our graph we can see that:
 
 **When we combined the top classified Beats with our graph results, we identified more crimes in addition to our model's results. Our favored model best classified Simple Assault crimes and Shoplifting crimes, which was also supported by our graph results, but now we're also aware that Burglarly/Breaking & Entering crimes and Theft From Motor Vehicle crimes are major crimes that occured over the years. Knowing what kind of crimes are most prevalent in what areas will allow us to come up with plans for preventing further crimes, allocate more resources to certain areas, etc. We'll go over these possibilities more in depth in our final conclusion.**
 
+### Feature Importance ###
+
+Finally, we'll look at feature importances for each of our models. First we'll see which features are most useful in predicting crime type, than we'll look at which features are most useful in predicting crime location.
+
+**Crime Type Feature Importance**
+
+
+<img width="387" alt="offense feature importance" src="https://user-images.githubusercontent.com/45251340/235375265-e91470f6-61a8-4b14-95cf-a461d774ca34.PNG">
+
+
+**Crime Location Feature Importance**
+
+
+<img width="374" alt="beat feature importance" src="https://user-images.githubusercontent.com/45251340/235375271-0912b6cb-722d-4a4f-ba38-90955717e7f2.PNG">
+
+**From our results we can see that:**
+
+* For crime type, the "Crime Against Category" variable is the most useful for predicting crime type, followed by (Significantly less so) "Time" and "MCPP"
+
+
+* For crime location, "Sector" is the most useful when it comes to predicting crime location, followed by "MCPP" and "Offense" 
 
 ## Final Results ##
 
