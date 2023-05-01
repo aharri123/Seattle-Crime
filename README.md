@@ -221,7 +221,7 @@ If this model is successfully improved and implemented, it could have a huge pos
 
 ├── Seattle-Crime.ipynb
 
-├── seattle_crime_beat.csv
+├── Seattle_crime_presentation.pdf
 
 ├── seattle_crime_beat.csv
 
